@@ -1,0 +1,66 @@
+span {
+    background-color: palevioletred;
+    border: 1px solid black;
+    /* spans are default inline elements */
+    width: 500px;
+    padding: 50px;
+    margin: 50px;
+}
+
+h1 {
+    background-color: paleturquoise;
+    border: 1px solid black;
+    width: 300px;
+    padding: 50px;
+    margin: 100px;
+}
+
+div {
+    background-color: olivedrab;
+    border: 5px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin: 50px;
+}
+
+section {
+    background-color: #59A5D8;
+    width: 800px;
+    height: 800px;
+}
+
+nav {
+    background-color: #F2B79F;
+    width: 70%;
+    height: 20%;
+}
+
+h2 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200px;
+}
+
+h3 {
+    font-size: 5em;
+    margin-left: 1em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1em;
+}
+
+article {
+    font-size: 20px;
+}
+
+button {
+    font-size: 30px;
+    padding: 0 30px;
+    border-radius: 15px;
+}

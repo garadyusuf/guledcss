@@ -1,0 +1,130 @@
+h1 {
+    text-align: center;
+    font-weight: 400;
+    text-decoration: #f46586 underline wavy;
+    letter-spacing: 15px;
+    font-size: 80px;
+    font-family: fantasy;
+}
+
+a {
+   text-decoration: none; 
+}
+
+p {
+    line-height: 2;
+}
+
+button {
+    font-size: 30px;
+    background-color: #545C52;
+}
+
+body {
+    background-color:#ECE8EF;
+}
+
+h1,h2,h3 {
+    color: #561F37;
+}
+
+#signup {
+    background-color: #2B3A67;
+    color: #EAC8CA;
+}
+
+input {
+    font-size: 30px;
+}
+
+label {
+    font-size: 30px;
+}
+
+#search {
+    background-color: #FFBC42;
+}
+
+span {
+    color: #D62828;
+}
+
+.tag {
+    background-color: #FFEE88;
+    font-size: 16px;
+}
+
+/* id = "#"          class = "." */
+
+.post a {
+    color: #D62828;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* class selector is used to label elements you want to return to later */
+
+footer a {
+    color: #7FB069;
+}
+/* descendant selector: achor tags nested in footer */
+
+h2 + button {
+    font-size: 20px;
+}
+/* Adjacent selectors: every button that come after a h2 */
+
+footer > a {
+    color: #006989;
+}
+/* Direct descendant selector: anchor tag directly nested by footer without other elements */
+
+input[type*="password"]{
+    color: greenyellow;
+}
+
+a[href*="google"] {
+    color: magenta;
+}
+
+.post button:hover {
+    background-color: #FF2E00;
+    color: #F7F0F5;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: #14CC60;
+}
+
+.post:nth-of-type(2n) {
+    background-color: #ebefe8;
+}
+
+/* Pseudo class */
+
+h2::first-letter {
+    font-size: 50px;
+}
+
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    background-color: #ffba08;
+    color: #d00000;
+}
+
+/* pseudo elements lets you style particular part of selected element */
+
+#bone  {
+    color: royalblue;
+}
+
+h3 {
+    color: seagreen;
+}
+
